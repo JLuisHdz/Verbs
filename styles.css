@@ -1,0 +1,25 @@
+#verbs-container{
+    margin: 0 35%;
+}
+
+.verbs-answer{
+    display: block;
+}
+
+.rightAnswer, .rightAnswer:hover{
+    background-color: chartreuse;
+    border-color: rgb(88, 177, 0);
+    color: wheat;
+}
+
+.wrongAnswer, .wronwAnswer:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(177, 0, 0);
+    color: wheat;
+}
+
+#next{
+    margin-top: 7rem;
+    cursor: pointer;
+    color: green;
+}
