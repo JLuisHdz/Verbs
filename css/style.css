@@ -1,0 +1,42 @@
+body{
+    background-color: #585858;
+}
+
+#cont{
+    height: 550px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 30%;
+    padding-top: 30px;
+    border-radius: 5px;
+}
+
+#showInf {
+    margin-top: 5%;
+}
+
+#verbs-container {
+    margin: 0 10%;
+}
+  
+.verbs-answer {
+    display: block;
+}
+
+.rightAnswer, .rightAnswer:hover {
+    background-color: #5aaf35;
+    border-color: #4bad20;
+    color: #ffffff;
+}
+
+.wrongAnswer, .wrongAnswer:hover {
+    background-color: #af1c1c;
+    border-color: #9e1f1f;
+    color: #ffffff;
+}
+
+#next {
+    margin-top: 10rem;
+    cursor: pointer;
+    color: rgb(0, 104, 0);
+}
